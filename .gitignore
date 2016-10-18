@@ -1,5 +1,6 @@
 src/app/build
 src/app/gradle.1.4
+src/app/gradle.1.4.taskArtifacts
 .idea
 out/production/java_bytecode_playground/app/build/
 java_bytecode_playground.iml

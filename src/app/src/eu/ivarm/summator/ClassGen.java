@@ -1,4 +1,4 @@
-package app.src.eu.ivarm.sum;
+package app.src.eu.ivarm.summator;
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
@@ -6,7 +6,7 @@ import jdk.internal.org.objectweb.asm.Opcodes;
 import java.io.FileOutputStream;
 
 public class ClassGen {
-    public static final String outPath = "./out/production/java_bytecode_playground/app/test/eu/ivarm/sum/Summator.class";
+    public static final String outPath = "./out/production/java_bytecode_playground/app/test/eu/ivarm/summator/Summator.class";
 
     public static void main(final String... args) throws Exception {
         final byte[] byteCode = new ClassGen().generateSummatorClass();

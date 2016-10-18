@@ -1,4 +1,4 @@
-package app.test.eu.ivarm.sum;
+package app.test.eu.ivarm.summator;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
