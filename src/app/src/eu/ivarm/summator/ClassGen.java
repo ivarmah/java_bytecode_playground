@@ -6,7 +6,7 @@ import jdk.internal.org.objectweb.asm.Opcodes;
 import java.io.FileOutputStream;
 
 public class ClassGen {
-    public static final String outPath = "./out/production/java_bytecode_playground/app/test/eu/ivarm/summator/Minimator.class";
+    public static final String outPath = "./out/production/java_bytecode_playground/app/test/eu/ivarm/summator/Summator.class";
 
     public static void main(final String... args) throws Exception {
         final byte[] byteCode = new ClassGen().generateSummatorClass();
@@ -20,7 +20,7 @@ public class ClassGen {
         final ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
         cw.visit(51,
                 Opcodes.ACC_PUBLIC,
-                "Minimator",
+                "Summator",
                 null,
                 "java/lang/Object",
                 null);
