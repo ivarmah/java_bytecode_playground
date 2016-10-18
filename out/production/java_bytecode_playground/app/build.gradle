@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'junit:junit:4.12'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.6.3'
+    compile 'org.ow2.asm:asm:5.0.4'
+}
+
+task copyToLib(type: Copy) {
+    into "/usr/share/java"
+    from configurations.runtime
+}
