@@ -44,7 +44,11 @@ public class SummatorTest {
 You see that both tests will fail.
 
 So, what is this challenge all about?
-* 1) Compile SummatorTest.
+* 1) Compile SummatorTest class.
 * 2) Compile Summator class.
 * 3) Change Summator.class bytecode so that SummatorTest.class tests could pass.
 * 4) Do not change SummatorTest.java
+
+Interested? Check out the solution:
+* [Summator Task Solution](https://github.com/ivarmah/java_bytecode_playground/blob/master/src/app/src/eu/ivarm/summator/ClassGen.java)
+* [Minimator Task Solution](https://github.com/ivarmah/java_bytecode_playground/blob/master/src/app/src/eu/ivarm/minimator/ClassGen.java)
