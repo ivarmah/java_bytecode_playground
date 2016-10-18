@@ -52,3 +52,9 @@ So, what is this challenge all about?
 Interested? Check out the solution:
 * [Summator Task Solution](https://github.com/ivarmah/java_bytecode_playground/blob/master/src/app/src/eu/ivarm/summator/ClassGen.java)
 * [Minimator Task Solution](https://github.com/ivarmah/java_bytecode_playground/blob/master/src/app/src/eu/ivarm/minimator/ClassGen.java)
+
+
+Many thanks to:
+
+[1]: http://kovalevskyi.com for inspiration.
+[2]: http://hexlet.org for setting up an awesome software development playground.
