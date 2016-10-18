@@ -1,6 +1,5 @@
 package app.test.eu.ivarm.sum;
 
-import app.src.eu.ivarm.sum.Summator;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -15,5 +14,4 @@ public class SummatorTest {
     public void fourEqualsFour() {
         assertEquals(summator.sum(2,2), 4);
     }
-
 }
