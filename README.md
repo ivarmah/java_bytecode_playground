@@ -43,8 +43,8 @@ public class SummatorTest {
 ```
 You see that both tests will fail.
 
-So, what is the challenge?
-1) Compile SummatorTest.
-2) Compile Summator class.
-3) Change Summator.class bytecode so that SummatorTest.class tests could pass.
-4) Do not change SummatorTest.java
+So, what is this challenge all about?
+* 1) Compile SummatorTest.
+* 2) Compile Summator class.
+* 3) Change Summator.class bytecode so that SummatorTest.class tests could pass.
+* 4) Do not change SummatorTest.java
