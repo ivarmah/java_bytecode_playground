@@ -56,5 +56,5 @@ Interested? Check out the solution:
 
 Many thanks to:
 
-[1]: http://kovalevskyi.com for inspiration.
-[2]: http://hexlet.org for setting up an awesome software development playground.
+* [1]: http://kovalevskyi.com for inspiration.
+* [2]: http://hexlet.org for setting up an awesome software development playground.
